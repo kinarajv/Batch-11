@@ -1,0 +1,15 @@
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\bin\Debug\net8.0\Composition.exe
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\bin\Debug\net8.0\Composition.deps.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\bin\Debug\net8.0\Composition.runtimeconfig.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\bin\Debug\net8.0\Composition.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\bin\Debug\net8.0\Composition.pdb
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\obj\Debug\net8.0\Composition.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\obj\Debug\net8.0\Composition.AssemblyInfoInputs.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\obj\Debug\net8.0\Composition.AssemblyInfo.cs
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\obj\Debug\net8.0\Composition.csproj.CoreCompileInputs.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\obj\Debug\net8.0\Composition.sourcelink.json
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\obj\Debug\net8.0\Composition.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\obj\Debug\net8.0\refint\Composition.dll
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\obj\Debug\net8.0\Composition.pdb
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\obj\Debug\net8.0\Composition.genruntimeconfig.cache
+c:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Composition\obj\Debug\net8.0\ref\Composition.dll
