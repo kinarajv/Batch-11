@@ -32,7 +32,7 @@
 			Console.WriteLine(start);
 			start++;
 		}
-
+	
 		//while input user
 		while(Console.ReadLine() == "y") 
 		{

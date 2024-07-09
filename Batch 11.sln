@@ -21,6 +21,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iteration", "Iteration\Iteration.csproj", "{5B4AB64C-2847-414E-9FAA-6A5E5DC3A95C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructorr", "Constructorr\Constructorr.csproj", "{04DC6CB8-9FAA-4067-9CCE-BB5D46259454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultConstructor", "DefaultConstructor\DefaultConstructor.csproj", "{3142FBDC-F531-43DB-8FB6-6658FAE2B530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConstructor", "CustomConstructor\CustomConstructor.csproj", "{EDAA61A8-0C82-4494-823B-AA94A6C858AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorOverloading", "ConstructorOverloading\ConstructorOverloading.csproj", "{E347D167-2012-464D-ADFB-BCBEE9C3C62D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +70,22 @@ Global
 		{5B4AB64C-2847-414E-9FAA-6A5E5DC3A95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B4AB64C-2847-414E-9FAA-6A5E5DC3A95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B4AB64C-2847-414E-9FAA-6A5E5DC3A95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DC6CB8-9FAA-4067-9CCE-BB5D46259454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DC6CB8-9FAA-4067-9CCE-BB5D46259454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DC6CB8-9FAA-4067-9CCE-BB5D46259454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DC6CB8-9FAA-4067-9CCE-BB5D46259454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3142FBDC-F531-43DB-8FB6-6658FAE2B530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3142FBDC-F531-43DB-8FB6-6658FAE2B530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3142FBDC-F531-43DB-8FB6-6658FAE2B530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3142FBDC-F531-43DB-8FB6-6658FAE2B530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAA61A8-0C82-4494-823B-AA94A6C858AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAA61A8-0C82-4494-823B-AA94A6C858AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAA61A8-0C82-4494-823B-AA94A6C858AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAA61A8-0C82-4494-823B-AA94A6C858AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E347D167-2012-464D-ADFB-BCBEE9C3C62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E347D167-2012-464D-ADFB-BCBEE9C3C62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E347D167-2012-464D-ADFB-BCBEE9C3C62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E347D167-2012-464D-ADFB-BCBEE9C3C62D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F288F1C6-CEBE-45FD-BE9C-7FF6B8E0832C} = {16533134-DFD1-45A9-BDA5-22B5C288B9D7}
