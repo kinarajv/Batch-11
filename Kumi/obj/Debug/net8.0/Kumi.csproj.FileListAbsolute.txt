@@ -1,0 +1,14 @@
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\bin\Debug\net8.0\Kumi.exe
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\bin\Debug\net8.0\Kumi.deps.json
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\bin\Debug\net8.0\Kumi.runtimeconfig.json
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\bin\Debug\net8.0\Kumi.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\bin\Debug\net8.0\Kumi.pdb
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\obj\Debug\net8.0\Kumi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\obj\Debug\net8.0\Kumi.AssemblyInfoInputs.cache
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\obj\Debug\net8.0\Kumi.AssemblyInfo.cs
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\obj\Debug\net8.0\Kumi.csproj.CoreCompileInputs.cache
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\obj\Debug\net8.0\Kumi.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\obj\Debug\net8.0\refint\Kumi.dll
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\obj\Debug\net8.0\Kumi.pdb
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\obj\Debug\net8.0\Kumi.genruntimeconfig.cache
+C:\Users\kinar\OneDrive\File Lama\Desktop\Batch 11\Kumi\obj\Debug\net8.0\ref\Kumi.dll
