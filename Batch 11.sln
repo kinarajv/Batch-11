@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Inhertiance_ErrorMultiple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_Inheritance_GrandParentAnalogy", "H_Inheritance_GrandParentAnalogy\H_Inheritance_GrandParentAnalogy.csproj", "{95D69402-5B5D-4C14-8729-3A959A9277D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_InheritanceComposition", "I_InheritanceComposition\I_InheritanceComposition.csproj", "{2892727E-43E5-45AA-BA7C-8AB8ECDFD9D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +141,10 @@ Global
 		{95D69402-5B5D-4C14-8729-3A959A9277D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95D69402-5B5D-4C14-8729-3A959A9277D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95D69402-5B5D-4C14-8729-3A959A9277D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2892727E-43E5-45AA-BA7C-8AB8ECDFD9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2892727E-43E5-45AA-BA7C-8AB8ECDFD9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2892727E-43E5-45AA-BA7C-8AB8ECDFD9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2892727E-43E5-45AA-BA7C-8AB8ECDFD9D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
