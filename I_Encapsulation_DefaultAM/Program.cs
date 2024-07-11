@@ -1,5 +1,4 @@
-```csharp
-class Engine { //internal
+﻿class Engine { //internal
  int type; //private
  void Run() { //private
   Console.WriteLine("Running");
@@ -11,5 +10,4 @@ class Program {
   engine.type = 1;
   engine.Run();
  }
-} //Singleton
-```
+}
