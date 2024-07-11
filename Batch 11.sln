@@ -33,33 +33,33 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultConstructor", "Day 2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConstructor", "Day 2\CustomConstructor\CustomConstructor.csproj", "{F524F4F3-EDB8-4570-904E-BBFF29208C93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Before_Inheritance", "A_Before_Inheritance\A_Before_Inheritance.csproj", "{FD73EA8C-987B-408B-83B6-A71BF668D1B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Before_Inheritance", "Day 3\A_Before_Inheritance\A_Before_Inheritance.csproj", "{FD73EA8C-987B-408B-83B6-A71BF668D1B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_After_Inheritance", "B_After_Inheritance\B_After_Inheritance.csproj", "{2E8FE745-6FA9-4B13-B4C6-D4395BBE0EC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_After_Inheritance", "Day 3\B_After_Inheritance\B_After_Inheritance.csproj", "{2E8FE745-6FA9-4B13-B4C6-D4395BBE0EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Inheritance_Proof", "C_Inheritance_Proof\C_Inheritance_Proof.csproj", "{AD45ADB4-85AB-40F3-A2FD-BE9875E6FF63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Inheritance_Proof", "Day 3\C_Inheritance_Proof\C_Inheritance_Proof.csproj", "{AD45ADB4-85AB-40F3-A2FD-BE9875E6FF63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_Inheritance_ParentChildConstructor", "D_Inheritance_ParentChildConstructor\D_Inheritance_ParentChildConstructor.csproj", "{B35AF32B-F28E-4AA7-95B5-87F96E32C069}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_Inheritance_ParentChildConstructor", "Day 3\D_Inheritance_ParentChildConstructor\D_Inheritance_ParentChildConstructor.csproj", "{B35AF32B-F28E-4AA7-95B5-87F96E32C069}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_ErrorParentChildConstructor", "E_ErrorParentChildConstructor\E_ErrorParentChildConstructor.csproj", "{89B4835D-BC0C-4707-A0E6-1BA42346DBFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_ErrorParentChildConstructor", "Day 3\E_ErrorParentChildConstructor\E_ErrorParentChildConstructor.csproj", "{89B4835D-BC0C-4707-A0E6-1BA42346DBFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_SolutionParentChildConstructor", "F_SolutionParentChildConstructor\F_SolutionParentChildConstructor.csproj", "{CEFC50A8-BAEF-40C4-B173-DE3067C30E46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_SolutionParentChildConstructor", "Day 3\F_SolutionParentChildConstructor\F_SolutionParentChildConstructor.csproj", "{CEFC50A8-BAEF-40C4-B173-DE3067C30E46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Inhertiance_ErrorMultipleInheritance", "G_Inhertiance_ErrorMultipleInheritance\G_Inhertiance_ErrorMultipleInheritance.csproj", "{25068133-9A27-4B3A-834F-26A2F63E6577}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Inhertiance_ErrorMultipleInheritance", "Day 3\G_Inhertiance_ErrorMultipleInheritance\G_Inhertiance_ErrorMultipleInheritance.csproj", "{25068133-9A27-4B3A-834F-26A2F63E6577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_Inheritance_GrandParentAnalogy", "H_Inheritance_GrandParentAnalogy\H_Inheritance_GrandParentAnalogy.csproj", "{95D69402-5B5D-4C14-8729-3A959A9277D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_Inheritance_GrandParentAnalogy", "Day 3\H_Inheritance_GrandParentAnalogy\H_Inheritance_GrandParentAnalogy.csproj", "{95D69402-5B5D-4C14-8729-3A959A9277D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_InheritanceComposition", "I_InheritanceComposition\I_InheritanceComposition.csproj", "{2892727E-43E5-45AA-BA7C-8AB8ECDFD9D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_InheritanceComposition", "Day 3\I_InheritanceComposition\I_InheritanceComposition.csproj", "{2892727E-43E5-45AA-BA7C-8AB8ECDFD9D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA_Question1", "AA_Question1\AA_Question1.csproj", "{17840D17-1BB3-46E4-80F9-AA93D353C101}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA_Question1", "Day 3\AA_Question1\AA_Question1.csproj", "{17840D17-1BB3-46E4-80F9-AA93D353C101}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AB_Question2", "AB_Question2\AB_Question2.csproj", "{F8EBBF32-2AA7-46FE-A2B7-6951FC1B2D63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AB_Question2", "Day 3\AB_Question2\AB_Question2.csproj", "{F8EBBF32-2AA7-46FE-A2B7-6951FC1B2D63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC_Question3", "AC_Question3\AC_Question3.csproj", "{5770E513-4129-4065-8649-BDFE6AE3ECF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC_Question3", "Day 3\AC_Question3\AC_Question3.csproj", "{5770E513-4129-4065-8649-BDFE6AE3ECF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AD_Question4", "AD_Question4\AD_Question4.csproj", "{BAA98833-7D58-40FC-91E4-4607FE28A72D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AD_Question4", "Day 3\AD_Question4\AD_Question4.csproj", "{BAA98833-7D58-40FC-91E4-4607FE28A72D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AE_Question4", "AE_Question4\AE_Question4.csproj", "{20B9C647-385E-4AD8-98F2-F4188AA2EC13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AE_Question4", "Day 3\AE_Question4\AE_Question4.csproj", "{20B9C647-385E-4AD8-98F2-F4188AA2EC13}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 3", "Day 3", "{FA7A24C2-3271-4F62-8B7B-39FE9AE2A2DF}"
 EndProject
