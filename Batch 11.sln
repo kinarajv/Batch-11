@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -63,31 +63,35 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AE_Question4", "Day 3\AE_Qu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 3", "Day 3", "{FA7A24C2-3271-4F62-8B7B-39FE9AE2A2DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Encapsulation_Public", "A_Encapsulation_Public\A_Encapsulation_Public.csproj", "{D9E18280-4EC8-4D26-9C98-2255F4864B26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Encapsulation_Public", "Day 4\A_Encapsulation_Public\A_Encapsulation_Public.csproj", "{D9E18280-4EC8-4D26-9C98-2255F4864B26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Encapsulation_Private", "B_Encapsulation_Private\B_Encapsulation_Private.csproj", "{C8B06219-02D3-4382-9888-ABCDD80AAAFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Encapsulation_Private", "Day 4\B_Encapsulation_Private\B_Encapsulation_Private.csproj", "{C8B06219-02D3-4382-9888-ABCDD80AAAFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Encapsulation_Private2", "C_Encapsulation_Private2\C_Encapsulation_Private2.csproj", "{34FFDCF1-4D17-49B3-A30A-9727B8B95B02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Encapsulation_Private2", "Day 4\C_Encapsulation_Private2\C_Encapsulation_Private2.csproj", "{34FFDCF1-4D17-49B3-A30A-9727B8B95B02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_Encapsulation_PrivateNamingConv", "D_Encapsulation_PrivateNamingConv\D_Encapsulation_PrivateNamingConv.csproj", "{7B689D2C-4D92-4C71-AC7C-5AECF9958E7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_Encapsulation_PrivateNamingConv", "Day 4\D_Encapsulation_PrivateNamingConv\D_Encapsulation_PrivateNamingConv.csproj", "{7B689D2C-4D92-4C71-AC7C-5AECF9958E7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Encapsulation_QuestionError", "E_Encapsulation_QuestionError\E_Encapsulation_QuestionError.csproj", "{5397FCDB-6259-4880-9257-B473158F742E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Encapsulation_QuestionError", "Day 4\E_Encapsulation_QuestionError\E_Encapsulation_QuestionError.csproj", "{5397FCDB-6259-4880-9257-B473158F742E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_Encapsulation_Variable", "F_Encapsulation_Variable\F_Encapsulation_Variable.csproj", "{6EED3C88-C92E-4EE8-88A9-7B4C7C5A1B73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_Encapsulation_Variable", "Day 4\F_Encapsulation_Variable\F_Encapsulation_Variable.csproj", "{6EED3C88-C92E-4EE8-88A9-7B4C7C5A1B73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Encapsulation_Protected", "G_Encapsulation_Protected\G_Encapsulation_Protected.csproj", "{EB3CFC21-237C-4E08-B3E3-46732603E532}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Encapsulation_Protected", "Day 4\G_Encapsulation_Protected\G_Encapsulation_Protected.csproj", "{EB3CFC21-237C-4E08-B3E3-46732603E532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H1_Encapsulation_Internal", "H1_Encapsulation_Internal\H1_Encapsulation_Internal.csproj", "{660C1305-984A-4956-B7D4-4D13B03CD25B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H1_Encapsulation_Internal", "Day 4\H1_Encapsulation_Internal\H1_Encapsulation_Internal.csproj", "{660C1305-984A-4956-B7D4-4D13B03CD25B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H2_Encapsulation_Internal2", "H2_Encapsulation_Internal2\H2_Encapsulation_Internal2.csproj", "{68F7E078-4DB9-48B2-A300-5FBCF58AEAEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H2_Encapsulation_Internal2", "Day 4\H2_Encapsulation_Internal2\H2_Encapsulation_Internal2.csproj", "{68F7E078-4DB9-48B2-A300-5FBCF58AEAEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_Encapsulation_DefaultAM", "I_Encapsulation_DefaultAM\I_Encapsulation_DefaultAM.csproj", "{6F6FB818-14F4-47AB-B918-D9CD0DCD48F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_Encapsulation_DefaultAM", "Day 4\I_Encapsulation_DefaultAM\I_Encapsulation_DefaultAM.csproj", "{6F6FB818-14F4-47AB-B918-D9CD0DCD48F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_Polymorphism", "J_Polymorphism\J_Polymorphism.csproj", "{926E4FEE-655A-4312-9412-241C82FA8316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_Polymorphism", "Day 4\J_Polymorphism\J_Polymorphism.csproj", "{926E4FEE-655A-4312-9412-241C82FA8316}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Question", "K_Question\K_Question.csproj", "{8C45DC54-BEFB-4B86-8154-DCA9D0ED0FCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Question", "Day 4\K_Question\K_Question.csproj", "{8C45DC54-BEFB-4B86-8154-DCA9D0ED0FCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_Polymorphism_Overloading", "L_Polymorphism_Overloading\L_Polymorphism_Overloading.csproj", "{07D96985-4A21-4DA0-AAE7-6D1D96B1A90F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_Polymorphism_Overloading", "Day 4\L_Polymorphism_Overloading\L_Polymorphism_Overloading.csproj", "{07D96985-4A21-4DA0-AAE7-6D1D96B1A90F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M_Params", "Day 4\M_Params\M_Params.csproj", "{D3BA373C-DD80-42D0-9A43-75F321228BAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 4", "Day 4", "{90C1BED4-584B-4813-AC34-76D6AEDA8B04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,11 +259,29 @@ Global
 		{07D96985-4A21-4DA0-AAE7-6D1D96B1A90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07D96985-4A21-4DA0-AAE7-6D1D96B1A90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07D96985-4A21-4DA0-AAE7-6D1D96B1A90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3BA373C-DD80-42D0-9A43-75F321228BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3BA373C-DD80-42D0-9A43-75F321228BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3BA373C-DD80-42D0-9A43-75F321228BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3BA373C-DD80-42D0-9A43-75F321228BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{D3BA373C-DD80-42D0-9A43-75F321228BAB} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{07D96985-4A21-4DA0-AAE7-6D1D96B1A90F} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{8C45DC54-BEFB-4B86-8154-DCA9D0ED0FCF} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{926E4FEE-655A-4312-9412-241C82FA8316} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{6F6FB818-14F4-47AB-B918-D9CD0DCD48F0} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{68F7E078-4DB9-48B2-A300-5FBCF58AEAEA} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{660C1305-984A-4956-B7D4-4D13B03CD25B} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{EB3CFC21-237C-4E08-B3E3-46732603E532} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{6EED3C88-C92E-4EE8-88A9-7B4C7C5A1B73} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{5397FCDB-6259-4880-9257-B473158F742E} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{7B689D2C-4D92-4C71-AC7C-5AECF9958E7F} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{34FFDCF1-4D17-49B3-A30A-9727B8B95B02} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{C8B06219-02D3-4382-9888-ABCDD80AAAFB} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
+		{D9E18280-4EC8-4D26-9C98-2255F4864B26} = {90C1BED4-584B-4813-AC34-76D6AEDA8B04}
 		{2892727E-43E5-45AA-BA7C-8AB8ECDFD9D3} = {FA7A24C2-3271-4F62-8B7B-39FE9AE2A2DF}
 		{95D69402-5B5D-4C14-8729-3A959A9277D9} = {FA7A24C2-3271-4F62-8B7B-39FE9AE2A2DF}
 		{25068133-9A27-4B3A-834F-26A2F63E6577} = {FA7A24C2-3271-4F62-8B7B-39FE9AE2A2DF}
