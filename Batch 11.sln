@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -136,6 +136,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_DoubleComparison", "D_DoubleComparison\D_DoubleComparison.csproj", "{EDEECBB7-0521-4318-B11E-A1E7B2CCD5BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 5", "Day 5", "{3EF4F64E-F542-4BE5-A2D4-15AAAC0F34C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_String", "F_String\F_String.csproj", "{BF907F89-47BD-491E-9A67-58BD4B9CEC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_StringBuilder", "G_StringBuilder\G_StringBuilder.csproj", "{6897F112-0231-45C8-BE8E-8EEB7E1C5C1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -391,6 +395,14 @@ Global
 		{EDEECBB7-0521-4318-B11E-A1E7B2CCD5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDEECBB7-0521-4318-B11E-A1E7B2CCD5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDEECBB7-0521-4318-B11E-A1E7B2CCD5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF907F89-47BD-491E-9A67-58BD4B9CEC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF907F89-47BD-491E-9A67-58BD4B9CEC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF907F89-47BD-491E-9A67-58BD4B9CEC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF907F89-47BD-491E-9A67-58BD4B9CEC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6897F112-0231-45C8-BE8E-8EEB7E1C5C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6897F112-0231-45C8-BE8E-8EEB7E1C5C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6897F112-0231-45C8-BE8E-8EEB7E1C5C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6897F112-0231-45C8-BE8E-8EEB7E1C5C1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
