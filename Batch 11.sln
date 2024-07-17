@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -202,6 +202,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 7", "Day 7", "{816A67D1-4A6F-49F9-93DF-1C32B6DE1AA9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A_Week 1", "A_Week 1", "{9B87BE23-480C-43AB-A0B4-7FA9520B2236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_event_Delegate", "A_event_Delegate\A_event_Delegate.csproj", "{6A99B81B-1994-4486-B4E3-CF401CDACC68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -577,6 +579,10 @@ Global
 		{FE0BE760-65C3-4274-A160-CC99866EDE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE0BE760-65C3-4274-A160-CC99866EDE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE0BE760-65C3-4274-A160-CC99866EDE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A99B81B-1994-4486-B4E3-CF401CDACC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A99B81B-1994-4486-B4E3-CF401CDACC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A99B81B-1994-4486-B4E3-CF401CDACC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A99B81B-1994-4486-B4E3-CF401CDACC68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
