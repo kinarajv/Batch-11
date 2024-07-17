@@ -40,5 +40,17 @@ class Publisher
 	{
 		_subs?.Invoke("Hello all");
 	}
+	public List<MyDelegate> GetHistoricalSubs() 
+	{
+		return _historySubs;
+	}
+	public bool CheckHistoricalSub(MyDelegate sub) 
+	{
+		if(_historySubs.Contains(sub)) 
+		{
+			return true;
+		}
+		return false;
+	}
 }
 
