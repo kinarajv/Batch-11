@@ -209,6 +209,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Delegate_Return", "B_Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Delegate_InvocationList", "C_Delegate_InvocationList\C_Delegate_InvocationList.csproj", "{2966CE77-4466-40B9-A3A0-ACB2938D0B58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_Delegate_Level1_2_3", "D_Delegate_Level1_2_3\D_Delegate_Level1_2_3.csproj", "{85485C3A-F9A1-472A-9076-BEF8ADEA49EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -595,6 +597,10 @@ Global
 		{2966CE77-4466-40B9-A3A0-ACB2938D0B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2966CE77-4466-40B9-A3A0-ACB2938D0B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2966CE77-4466-40B9-A3A0-ACB2938D0B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85485C3A-F9A1-472A-9076-BEF8ADEA49EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85485C3A-F9A1-472A-9076-BEF8ADEA49EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85485C3A-F9A1-472A-9076-BEF8ADEA49EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85485C3A-F9A1-472A-9076-BEF8ADEA49EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
