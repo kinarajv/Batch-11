@@ -277,6 +277,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_UsingKeyword", "G_UsingKe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_StackOverFlow", "H_StackOverFlow\H_StackOverFlow.csproj", "{3F098A05-B2DB-4B3B-A9C6-34A624074CF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_ClassPrint", "I_ClassPrint\I_ClassPrint.csproj", "{31DCAFE7-5EF3-4784-9153-39A5992A038C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -783,6 +785,10 @@ Global
 		{3F098A05-B2DB-4B3B-A9C6-34A624074CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F098A05-B2DB-4B3B-A9C6-34A624074CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F098A05-B2DB-4B3B-A9C6-34A624074CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DCAFE7-5EF3-4784-9153-39A5992A038C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DCAFE7-5EF3-4784-9153-39A5992A038C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DCAFE7-5EF3-4784-9153-39A5992A038C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DCAFE7-5EF3-4784-9153-39A5992A038C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
