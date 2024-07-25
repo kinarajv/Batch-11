@@ -271,6 +271,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_ClassWithFinalizers", "D_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_ClassWithoutFinalizers", "E_ClassWithoutFinalizers\E_ClassWithoutFinalizers.csproj", "{1CE91FB7-ADBF-41B2-8FDB-7D6603172743}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_Dispose", "F_Dispose\F_Dispose.csproj", "{73F64FE6-E156-4387-BFDF-3319C08C7941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -765,6 +767,10 @@ Global
 		{1CE91FB7-ADBF-41B2-8FDB-7D6603172743}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CE91FB7-ADBF-41B2-8FDB-7D6603172743}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CE91FB7-ADBF-41B2-8FDB-7D6603172743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F64FE6-E156-4387-BFDF-3319C08C7941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F64FE6-E156-4387-BFDF-3319C08C7941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F64FE6-E156-4387-BFDF-3319C08C7941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F64FE6-E156-4387-BFDF-3319C08C7941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
