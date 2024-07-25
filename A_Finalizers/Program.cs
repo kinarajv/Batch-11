@@ -15,6 +15,7 @@ class Program
 	{
 		InstanceCreator();
 		GC.Collect();
+		GC.WaitForPendingFinalizers();
 	}
 	static void InstanceCreator() 
 	{
