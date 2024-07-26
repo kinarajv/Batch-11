@@ -285,6 +285,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Partial", "A_Partial\A_Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Sealed", "B_Sealed\B_Sealed.csproj", "{75B15696-6160-4D4A-8320-D50482723DD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_ConditionalCompilation", "C_ConditionalCompilation\C_ConditionalCompilation.csproj", "{23340FF5-5EB6-4BE4-9D55-116FAFBB2BBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -807,6 +809,10 @@ Global
 		{75B15696-6160-4D4A-8320-D50482723DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75B15696-6160-4D4A-8320-D50482723DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75B15696-6160-4D4A-8320-D50482723DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23340FF5-5EB6-4BE4-9D55-116FAFBB2BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23340FF5-5EB6-4BE4-9D55-116FAFBB2BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23340FF5-5EB6-4BE4-9D55-116FAFBB2BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23340FF5-5EB6-4BE4-9D55-116FAFBB2BBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
