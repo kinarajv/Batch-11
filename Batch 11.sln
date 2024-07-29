@@ -325,6 +325,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M_ThreadException_ReadOnlyC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_ThreadExceptionWithLambda", "N_ThreadExceptionWithLambda\N_ThreadExceptionWithLambda.csproj", "{49150B47-D0A5-4530-98C3-9EBCCA49A568}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O_AvoidOnThread", "O_AvoidOnThread\O_AvoidOnThread.csproj", "{0715D19D-D58A-4419-8036-DB88BFC9DE80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -915,6 +917,10 @@ Global
 		{49150B47-D0A5-4530-98C3-9EBCCA49A568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49150B47-D0A5-4530-98C3-9EBCCA49A568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49150B47-D0A5-4530-98C3-9EBCCA49A568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0715D19D-D58A-4419-8036-DB88BFC9DE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0715D19D-D58A-4419-8036-DB88BFC9DE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0715D19D-D58A-4419-8036-DB88BFC9DE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0715D19D-D58A-4419-8036-DB88BFC9DE80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
