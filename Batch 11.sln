@@ -281,7 +281,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_ClassPrint", "Day 17\I_Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_ExtensionMethod", "Day 17\J_ExtensionMethod\J_ExtensionMethod.csproj", "{BD6757FE-962C-4644-8D51-D97C3BA839B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Partial", "Day 17\_Partial\A_Partial.csproj", "{9FB4008A-6D23-4AC7-A8E2-203A3D2D8090}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Partial", "Day 17\A_Partial\A_Partial.csproj", "{9FB4008A-6D23-4AC7-A8E2-203A3D2D8090}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Sealed", "Day 16\B_Sealed\B_Sealed.csproj", "{75B15696-6160-4D4A-8320-D50482723DD8}"
 EndProject
