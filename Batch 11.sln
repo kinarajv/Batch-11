@@ -315,6 +315,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_ThreadReturn", "H_ThreadR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_ExampleOfTicTacToe", "I_ExampleOfTicTacToe\I_ExampleOfTicTacToe.csproj", "{30FF333B-784F-4AAE-8110-9EFF8E1A6DC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_GameController", "J_GameController\J_GameController.csproj", "{13F25718-41F9-46F7-90C1-EA60799003BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -885,6 +887,10 @@ Global
 		{30FF333B-784F-4AAE-8110-9EFF8E1A6DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30FF333B-784F-4AAE-8110-9EFF8E1A6DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30FF333B-784F-4AAE-8110-9EFF8E1A6DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F25718-41F9-46F7-90C1-EA60799003BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F25718-41F9-46F7-90C1-EA60799003BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F25718-41F9-46F7-90C1-EA60799003BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F25718-41F9-46F7-90C1-EA60799003BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
