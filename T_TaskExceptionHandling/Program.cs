@@ -3,21 +3,17 @@
 	static void Main()
 	{
 		Console.WriteLine("Program starting");
-		Thread t1 = new Thread(Execution);
-		t1.Start();
-		t1.Join();
-		Console.WriteLine("Program finished");
-	}
-	static void Execution() 
-	{
+		Task t1 = new Task(MethodA);
 		try 
 		{
-			MethodA();
+			t1.Start();
+			t1.Wait();
 		}
 		catch(Exception e) 
 		{
 			Console.WriteLine(e.Message);
-		} 
+		}
+		Console.WriteLine("Program finished");
 	}
 	static void MethodA() 
 	{
