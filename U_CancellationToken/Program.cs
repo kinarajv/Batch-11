@@ -1,7 +1,7 @@
 ﻿class Program
 {
     static void Main()
-    {
+    { 
         Console.WriteLine("Program berjalan, memantau gempa...");
 		CancellationTokenSource alarmCts = new CancellationTokenSource();
         Task t2 = Task.Run(() => MonitorGempa(alarmCts.Token));
