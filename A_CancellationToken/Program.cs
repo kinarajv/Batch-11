@@ -1,18 +1,25 @@
 ﻿class Program
 {
     static void Main()
-    { 
+    {
         Console.WriteLine("Download starting...");
-		CancellationTokenSource alarmCts = new CancellationTokenSource();
+        StartDownload();
+        Console.WriteLine("Download Finished");
+        Console.ReadLine();
+    }
+
+    private static void StartDownload()
+    {
+        CancellationTokenSource alarmCts = new CancellationTokenSource();
         Task t2 = Task.Run(() => DownloadFile(alarmCts.Token));
-		Task t1 = Task.Run(() =>
-        {
-           	Console.ReadLine();
-            alarmCts.Cancel();
-        });
-		Task.WaitAny(t1,t2);
-		Console.WriteLine("Download Finished");
-        Console.ReadLine(); 
+        Task t1 = Task.Run(() => ReadUserInput(alarmCts));
+        Task.WaitAny(t1, t2);
+    }
+
+    private static void ReadUserInput(CancellationTokenSource alarmCts)
+    {
+        Console.ReadLine();
+        alarmCts.Cancel();
     }
 
     static void DownloadFile(CancellationToken ct)
