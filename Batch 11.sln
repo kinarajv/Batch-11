@@ -297,45 +297,45 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 16", "Day 16", "{BF2453
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C_Week 3", "C_Week 3", "{0D8A95F6-7FA5-4E37-AFB8-4CA351B0B9DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_WithoutMultiThreading", "A_WithoutMultiThreading\A_WithoutMultiThreading.csproj", "{4A32F77F-8644-47C0-8262-8EE165E989DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_WithoutMultiThreading", "Day 20\A_WithoutMultiThreading\A_WithoutMultiThreading.csproj", "{4A32F77F-8644-47C0-8262-8EE165E989DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_WithMultithreading", "B_WithMultithreading\B_WithMultithreading.csproj", "{B46138CB-AAF1-4C8B-AC8F-8584290EF3A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_WithMultithreading", "Day 20\B_WithMultithreading\B_WithMultithreading.csproj", "{B46138CB-AAF1-4C8B-AC8F-8584290EF3A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_ForegroundThread", "C_ForegroundThread\C_ForegroundThread.csproj", "{979FEEF4-ED84-46C2-8ECC-9215CC575D02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_ForegroundThread", "Day 20\C_ForegroundThread\C_ForegroundThread.csproj", "{979FEEF4-ED84-46C2-8ECC-9215CC575D02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_BackgroundThread", "D_BackgroundThread\D_BackgroundThread.csproj", "{782EE6F4-9AA8-40D0-8659-BA7F364C7ECB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_BackgroundThread", "Day 20\D_BackgroundThread\D_BackgroundThread.csproj", "{782EE6F4-9AA8-40D0-8659-BA7F364C7ECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_ParameterProblem", "E_ParameterProblem\E_ParameterProblem.csproj", "{2D343418-AE20-4D18-AA07-8B7D3A44A963}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_ParameterProblem", "Day 20\E_ParameterProblem\E_ParameterProblem.csproj", "{2D343418-AE20-4D18-AA07-8B7D3A44A963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_ParameterSolutionThread", "F_ParameterSolutionThread\F_ParameterSolutionThread.csproj", "{15BBB54D-8581-4765-839A-A2BCB796E7B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_ParameterSolutionThread", "Day 20\F_ParameterSolutionThread\F_ParameterSolutionThread.csproj", "{15BBB54D-8581-4765-839A-A2BCB796E7B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_AnotherThreadSolution", "G_AnotherThreadSolution\G_AnotherThreadSolution.csproj", "{67FC24D6-4A78-47A7-AE2A-815484CCF03B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_AnotherThreadSolution", "Day 20\G_AnotherThreadSolution\G_AnotherThreadSolution.csproj", "{67FC24D6-4A78-47A7-AE2A-815484CCF03B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_ThreadReturn", "H_ThreadReturn\H_ThreadReturn.csproj", "{EF1C2D94-0EC5-408B-857C-79EF01369CBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_ThreadReturn", "Day 20\H_ThreadReturn\H_ThreadReturn.csproj", "{EF1C2D94-0EC5-408B-857C-79EF01369CBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_ExampleOfTicTacToe", "I_ExampleOfTicTacToe\I_ExampleOfTicTacToe.csproj", "{30FF333B-784F-4AAE-8110-9EFF8E1A6DC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_ExampleOfTicTacToe", "Day 20\I_ExampleOfTicTacToe\I_ExampleOfTicTacToe.csproj", "{30FF333B-784F-4AAE-8110-9EFF8E1A6DC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_GameController", "J_GameController\J_GameController.csproj", "{13F25718-41F9-46F7-90C1-EA60799003BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_GameController", "Day 20\J_GameController\J_GameController.csproj", "{13F25718-41F9-46F7-90C1-EA60799003BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Thread", "K_Thread\K_Thread.csproj", "{6DFB80B3-C5B2-4811-83CC-370095D4369F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Thread", "Day 20\K_Thread\K_Thread.csproj", "{6DFB80B3-C5B2-4811-83CC-370095D4369F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_ThreadExceptionResolve", "L_ThreadExceptionResolve\L_ThreadExceptionResolve.csproj", "{5D2DEF4C-4189-4137-98D1-DBDDF840B920}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_ThreadExceptionResolve", "Day 20\L_ThreadExceptionResolve\L_ThreadExceptionResolve.csproj", "{5D2DEF4C-4189-4137-98D1-DBDDF840B920}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M_ThreadException_ReadOnlyClass", "M_ThreadException_ReadOnlyClass\M_ThreadException_ReadOnlyClass.csproj", "{EDD96C05-50E7-4321-9025-F65C2FFFE76A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M_ThreadException_ReadOnlyClass", "Day 20\M_ThreadException_ReadOnlyClass\M_ThreadException_ReadOnlyClass.csproj", "{EDD96C05-50E7-4321-9025-F65C2FFFE76A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_ThreadExceptionWithLambda", "N_ThreadExceptionWithLambda\N_ThreadExceptionWithLambda.csproj", "{49150B47-D0A5-4530-98C3-9EBCCA49A568}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_ThreadExceptionWithLambda", "Day 20\N_ThreadExceptionWithLambda\N_ThreadExceptionWithLambda.csproj", "{49150B47-D0A5-4530-98C3-9EBCCA49A568}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O_AvoidOnThread", "O_AvoidOnThread\O_AvoidOnThread.csproj", "{0715D19D-D58A-4419-8036-DB88BFC9DE80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O_AvoidOnThread", "Day 20\O_AvoidOnThread\O_AvoidOnThread.csproj", "{0715D19D-D58A-4419-8036-DB88BFC9DE80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P_CreateTask", "P_CreateTask\P_CreateTask.csproj", "{61C29D73-1A39-42DC-B30F-BBF175A0EACC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P_CreateTask", "Day 20\P_CreateTask\P_CreateTask.csproj", "{61C29D73-1A39-42DC-B30F-BBF175A0EACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q_CreateTask2", "Q_CreateTask2\Q_CreateTask2.csproj", "{F18A43C4-8BF7-4E24-8F65-42F3B2468B43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q_CreateTask2", "Day 20\Q_CreateTask2\Q_CreateTask2.csproj", "{F18A43C4-8BF7-4E24-8F65-42F3B2468B43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R_TaskParameter", "R_TaskParameter\R_TaskParameter.csproj", "{C64D9F09-DF30-4DCC-AE0C-2030461A2703}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R_TaskParameter", "Day 20\R_TaskParameter\R_TaskParameter.csproj", "{C64D9F09-DF30-4DCC-AE0C-2030461A2703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S_TaskReturnType", "S_TaskReturnType\S_TaskReturnType.csproj", "{9682E48F-A140-482F-8D24-5E77B79B9D67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S_TaskReturnType", "Day 20\S_TaskReturnType\S_TaskReturnType.csproj", "{9682E48F-A140-482F-8D24-5E77B79B9D67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T_TaskExceptionHandling", "T_TaskExceptionHandling\T_TaskExceptionHandling.csproj", "{0B3FFACB-2A2A-420B-A3BC-E07E91DB16DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T_TaskExceptionHandling", "Day 20\T_TaskExceptionHandling\T_TaskExceptionHandling.csproj", "{0B3FFACB-2A2A-420B-A3BC-E07E91DB16DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U_CancellationToken", "U_CancellationToken\U_CancellationToken.csproj", "{806294A0-A2DA-4C3B-A5C0-2A330D854489}"
 EndProject
