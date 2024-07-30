@@ -355,6 +355,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_Lock", "F_Lock\F_Lock.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Semaphore", "G_Semaphore\G_Semaphore.csproj", "{4E393B47-1F1B-4005-A212-0E834F6649A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_DeadLock", "H_DeadLock\H_DeadLock.csproj", "{D639059D-EF80-4D07-BE73-F06B98CBC550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1001,6 +1003,10 @@ Global
 		{4E393B47-1F1B-4005-A212-0E834F6649A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E393B47-1F1B-4005-A212-0E834F6649A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E393B47-1F1B-4005-A212-0E834F6649A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D639059D-EF80-4D07-BE73-F06B98CBC550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D639059D-EF80-4D07-BE73-F06B98CBC550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D639059D-EF80-4D07-BE73-F06B98CBC550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D639059D-EF80-4D07-BE73-F06B98CBC550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
