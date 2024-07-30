@@ -357,6 +357,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Semaphore", "G_Semaphore\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_DeadLock", "H_DeadLock\H_DeadLock.csproj", "{D639059D-EF80-4D07-BE73-F06B98CBC550}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_FileStream", "I_FileStream\I_FileStream.csproj", "{E6AD036A-523F-415D-88AD-E51B137C4FF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_FileStreamFileShare", "J_FileStreamFileShare\J_FileStreamFileShare.csproj", "{EC79668C-54AE-4676-9068-57484CE5BDEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1007,6 +1011,14 @@ Global
 		{D639059D-EF80-4D07-BE73-F06B98CBC550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D639059D-EF80-4D07-BE73-F06B98CBC550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D639059D-EF80-4D07-BE73-F06B98CBC550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6AD036A-523F-415D-88AD-E51B137C4FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6AD036A-523F-415D-88AD-E51B137C4FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6AD036A-523F-415D-88AD-E51B137C4FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6AD036A-523F-415D-88AD-E51B137C4FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC79668C-54AE-4676-9068-57484CE5BDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC79668C-54AE-4676-9068-57484CE5BDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC79668C-54AE-4676-9068-57484CE5BDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC79668C-54AE-4676-9068-57484CE5BDEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
