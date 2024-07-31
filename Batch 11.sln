@@ -337,35 +337,35 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S_TaskReturnType", "Day 20\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T_TaskExceptionHandling", "Day 20\T_TaskExceptionHandling\T_TaskExceptionHandling.csproj", "{0B3FFACB-2A2A-420B-A3BC-E07E91DB16DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U_CancellationToken", "U_CancellationToken\U_CancellationToken.csproj", "{806294A0-A2DA-4C3B-A5C0-2A330D854489}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U_CancellationToken", "Day 21\U_CancellationToken\U_CancellationToken.csproj", "{806294A0-A2DA-4C3B-A5C0-2A330D854489}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 20", "Day 20", "{CDE89303-1970-4578-874B-08CF8AC8847D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_CancellationToken", "A_CancellationToken\A_CancellationToken.csproj", "{F0F089E9-DDC1-490B-A132-67B93481772E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_CancellationToken", "Day 21\A_CancellationToken\A_CancellationToken.csproj", "{F0F089E9-DDC1-490B-A132-67B93481772E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_TaskAsyncAwait", "B_TaskAsyncAwait\B_TaskAsyncAwait.csproj", "{C95D1A72-90B1-4D6A-8F27-9BCF4B2D0A0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_TaskAsyncAwait", "Day 21\B_TaskAsyncAwait\B_TaskAsyncAwait.csproj", "{C95D1A72-90B1-4D6A-8F27-9BCF4B2D0A0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_TaskAsyncAwait2", "C_TaskAsyncAwait2\C_TaskAsyncAwait2.csproj", "{F68E84F1-66C2-4458-BF59-19E746A8796E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_TaskAsyncAwait2", "Day 21\C_TaskAsyncAwait2\C_TaskAsyncAwait2.csproj", "{F68E84F1-66C2-4458-BF59-19E746A8796E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_HotReload", "D_HotReload\D_HotReload.csproj", "{7B6BC2DD-9C36-4AFD-A14B-A23F2E8A8706}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_HotReload", "Day 21\D_HotReload\D_HotReload.csproj", "{7B6BC2DD-9C36-4AFD-A14B-A23F2E8A8706}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_RaceCondition", "E_RaceCondition\E_RaceCondition.csproj", "{B78DBCA2-A7CB-4A5F-B507-7BD5F07A9678}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_RaceCondition", "Day 21\E_RaceCondition\E_RaceCondition.csproj", "{B78DBCA2-A7CB-4A5F-B507-7BD5F07A9678}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_Lock", "F_Lock\F_Lock.csproj", "{4D9A9A2A-EC68-42E8-9D2E-06F8168A8A2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_Lock", "Day 21\F_Lock\F_Lock.csproj", "{4D9A9A2A-EC68-42E8-9D2E-06F8168A8A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Semaphore", "G_Semaphore\G_Semaphore.csproj", "{4E393B47-1F1B-4005-A212-0E834F6649A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Semaphore", "Day 21\G_Semaphore\G_Semaphore.csproj", "{4E393B47-1F1B-4005-A212-0E834F6649A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_DeadLock", "H_DeadLock\H_DeadLock.csproj", "{D639059D-EF80-4D07-BE73-F06B98CBC550}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_DeadLock", "Day 21\H_DeadLock\H_DeadLock.csproj", "{D639059D-EF80-4D07-BE73-F06B98CBC550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_FileStream", "I_FileStream\I_FileStream.csproj", "{E6AD036A-523F-415D-88AD-E51B137C4FF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_FileStream", "Day 21\I_FileStream\I_FileStream.csproj", "{E6AD036A-523F-415D-88AD-E51B137C4FF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_FileStreamFileShare", "J_FileStreamFileShare\J_FileStreamFileShare.csproj", "{EC79668C-54AE-4676-9068-57484CE5BDEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_FileStreamFileShare", "Day 21\J_FileStreamFileShare\J_FileStreamFileShare.csproj", "{EC79668C-54AE-4676-9068-57484CE5BDEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_FileStreamWrite", "K_FileStreamWrite\K_FileStreamWrite.csproj", "{791F1350-6B50-4089-A254-FFD741112334}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_FileStreamWrite", "Day 21\K_FileStreamWrite\K_FileStreamWrite.csproj", "{791F1350-6B50-4089-A254-FFD741112334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_FileStreamRead", "L_FileStreamRead\L_FileStreamRead.csproj", "{7F769433-08D1-467A-86F9-FE368C2AEC7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_FileStreamRead", "Day 21\L_FileStreamRead\L_FileStreamRead.csproj", "{7F769433-08D1-467A-86F9-FE368C2AEC7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M_StreamWriterReader", "M_StreamWriterReader\M_StreamWriterReader.csproj", "{9E308597-6795-4D02-AE47-E6363B12204A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M_StreamWriterReader", "Day 21\M_StreamWriterReader\M_StreamWriterReader.csproj", "{9E308597-6795-4D02-AE47-E6363B12204A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 21", "Day 21", "{80070041-4789-4752-8825-1A1248E60859}"
 EndProject
