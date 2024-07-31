@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -368,6 +368,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M_StreamWriterReader", "Day 21\M_StreamWriterReader\M_StreamWriterReader.csproj", "{9E308597-6795-4D02-AE47-E6363B12204A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 21", "Day 21", "{80070041-4789-4752-8825-1A1248E60859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Serializer_XML", "A_Serializer_XML\A_Serializer_XML.csproj", "{BC6EB0DE-78C6-442E-B706-A53A8F809135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Deserialize_XML", "B_Deserialize_XML\B_Deserialize_XML.csproj", "{8B0A1FA5-0ACB-4900-9826-1DB4B489CCD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Serializer_XML_Collection", "C_Serializer_XML_Collection\C_Serializer_XML_Collection.csproj", "{3A280A1F-9DB5-4F05-AD3F-8093EB229905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_Deserialize_XML_Collection", "D_Deserialize_XML_Collection\D_Deserialize_XML_Collection.csproj", "{999F5171-AD03-49DD-8658-F9C83993769D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1039,6 +1047,22 @@ Global
 		{9E308597-6795-4D02-AE47-E6363B12204A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E308597-6795-4D02-AE47-E6363B12204A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E308597-6795-4D02-AE47-E6363B12204A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6EB0DE-78C6-442E-B706-A53A8F809135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6EB0DE-78C6-442E-B706-A53A8F809135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6EB0DE-78C6-442E-B706-A53A8F809135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6EB0DE-78C6-442E-B706-A53A8F809135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0A1FA5-0ACB-4900-9826-1DB4B489CCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0A1FA5-0ACB-4900-9826-1DB4B489CCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0A1FA5-0ACB-4900-9826-1DB4B489CCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0A1FA5-0ACB-4900-9826-1DB4B489CCD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A280A1F-9DB5-4F05-AD3F-8093EB229905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A280A1F-9DB5-4F05-AD3F-8093EB229905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A280A1F-9DB5-4F05-AD3F-8093EB229905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A280A1F-9DB5-4F05-AD3F-8093EB229905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999F5171-AD03-49DD-8658-F9C83993769D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999F5171-AD03-49DD-8658-F9C83993769D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999F5171-AD03-49DD-8658-F9C83993769D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999F5171-AD03-49DD-8658-F9C83993769D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
