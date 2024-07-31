@@ -1,10 +1,11 @@
-﻿class Program
+﻿namespace MyProgram;
+public static class Program
 {
 	static async Task Main()
 	{
 		Console.WriteLine("Program started");
-		Task task1 = null;
-		Task task2 = null;
+		Task? task1 = null;
+		Task? task2 = null;
 		task2 = Task.Run(async () =>
 		{
 			Console.WriteLine("Task2 started");
