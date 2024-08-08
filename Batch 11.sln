@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -369,21 +369,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M_StreamWriterReader", "Day
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 21", "Day 21", "{80070041-4789-4752-8825-1A1248E60859}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Serializer_XML", "Day 22A/A_Serializer_XML\A_Serializer_XML.csproj", "{BC6EB0DE-78C6-442E-B706-A53A8F809135}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Serializer_XML", "Day 22A\A_Serializer_XML\A_Serializer_XML.csproj", "{BC6EB0DE-78C6-442E-B706-A53A8F809135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Deserialize_XML", "Day 22A/B_Deserialize_XML\B_Deserialize_XML.csproj", "{8B0A1FA5-0ACB-4900-9826-1DB4B489CCD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Deserialize_XML", "Day 22A\B_Deserialize_XML\B_Deserialize_XML.csproj", "{8B0A1FA5-0ACB-4900-9826-1DB4B489CCD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Serializer_XML_Collection", "Day 22A/C_Serializer_XML_Collection\C_Serializer_XML_Collection.csproj", "{3A280A1F-9DB5-4F05-AD3F-8093EB229905}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Serializer_XML_Collection", "Day 22A\C_Serializer_XML_Collection\C_Serializer_XML_Collection.csproj", "{3A280A1F-9DB5-4F05-AD3F-8093EB229905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_Deserialize_XML_Collection", "Day 22A/D_Deserialize_XML_Collection\D_Deserialize_XML_Collection.csproj", "{999F5171-AD03-49DD-8658-F9C83993769D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_Deserialize_XML_Collection", "Day 22A\D_Deserialize_XML_Collection\D_Deserialize_XML_Collection.csproj", "{999F5171-AD03-49DD-8658-F9C83993769D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Serialize_Json", "Day 22A/E_Serialize_Json\E_Serialize_Json.csproj", "{DB2641DB-2B86-4C66-8A7A-3CBB509FC505}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Serialize_Json", "Day 22A\E_Serialize_Json\E_Serialize_Json.csproj", "{DB2641DB-2B86-4C66-8A7A-3CBB509FC505}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_Deserialize", "Day 22A/F_Deserialize\F_Deserialize.csproj", "{4F4019F1-2D00-43EE-B2AF-D3C864E217EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_Deserialize", "Day 22A\F_Deserialize\F_Deserialize.csproj", "{4F4019F1-2D00-43EE-B2AF-D3C864E217EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_DataContractSerializer", "Day 22A/G_DataContractSerializer\G_DataContractSerializer.csproj", "{EAEB1AC3-4BFE-41D1-81F1-1D50B23320E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_DataContractSerializer", "Day 22A\G_DataContractSerializer\G_DataContractSerializer.csproj", "{EAEB1AC3-4BFE-41D1-81F1-1D50B23320E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_DataContractJsonSerializer", "Day 22A/H_DataContractJsonSerializer\H_DataContractJsonSerializer.csproj", "{78A0B1D9-4D95-460D-A16B-1BE69B031893}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_DataContractJsonSerializer", "Day 22A\H_DataContractJsonSerializer\H_DataContractJsonSerializer.csproj", "{78A0B1D9-4D95-460D-A16B-1BE69B031893}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 22", "Day 22", "{6E010757-8685-4860-BD6B-666AA63350F4}"
 EndProject
@@ -420,6 +420,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 22A", "Day 22A", "{FA8FCB8B-CBCD-4ADE-B8BD-7D8985232E9C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D_Week 4", "D_Week 4", "{0AC62388-0564-44F9-9102-567B26C1B065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Log4Net", "A_Log4Net\A_Log4Net.csproj", "{CDD88385-A86D-4590-95AB-110A586292E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1183,6 +1185,10 @@ Global
 		{4403E3B2-ADA2-459B-A507-F02DCCAFAC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4403E3B2-ADA2-459B-A507-F02DCCAFAC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4403E3B2-ADA2-459B-A507-F02DCCAFAC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD88385-A86D-4590-95AB-110A586292E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD88385-A86D-4590-95AB-110A586292E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD88385-A86D-4590-95AB-110A586292E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD88385-A86D-4590-95AB-110A586292E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
