@@ -12,12 +12,6 @@ partial class Program
 		DependencyInjection();
 		
 	}
-	static void NoLog()
-	{
-		IPlayer player = new Player("player1");
-		IBoard board = new Board(2);
-		GameController game = new GameController(player, board);
-	}
 }
 
 
