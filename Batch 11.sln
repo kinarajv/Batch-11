@@ -423,6 +423,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D_Week 4", "D_Week 4", "{0A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Log4Net", "A_Log4Net\A_Log4Net.csproj", "{CDD88385-A86D-4590-95AB-110A586292E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Log4Net", "B_Log4Net\B_Log4Net.csproj", "{ADF68A72-CDE4-409D-896F-BE3DE56A7515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_NLog", "C_NLog\C_NLog.csproj", "{A648BF82-E9CA-43C0-9499-22BFB29B1953}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1189,6 +1193,14 @@ Global
 		{CDD88385-A86D-4590-95AB-110A586292E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDD88385-A86D-4590-95AB-110A586292E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDD88385-A86D-4590-95AB-110A586292E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF68A72-CDE4-409D-896F-BE3DE56A7515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF68A72-CDE4-409D-896F-BE3DE56A7515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF68A72-CDE4-409D-896F-BE3DE56A7515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF68A72-CDE4-409D-896F-BE3DE56A7515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A648BF82-E9CA-43C0-9499-22BFB29B1953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A648BF82-E9CA-43C0-9499-22BFB29B1953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A648BF82-E9CA-43C0-9499-22BFB29B1953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A648BF82-E9CA-43C0-9499-22BFB29B1953}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
