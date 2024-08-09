@@ -427,6 +427,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Log4Net", "B_Log4Net\B_Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_NLog", "C_NLog\C_NLog.csproj", "{A648BF82-E9CA-43C0-9499-22BFB29B1953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_GameController", "D_GameController\D_GameController.csproj", "{6ACA34E4-10CC-44CD-8AF0-822AC0CE9E2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1201,6 +1203,10 @@ Global
 		{A648BF82-E9CA-43C0-9499-22BFB29B1953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A648BF82-E9CA-43C0-9499-22BFB29B1953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A648BF82-E9CA-43C0-9499-22BFB29B1953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACA34E4-10CC-44CD-8AF0-822AC0CE9E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACA34E4-10CC-44CD-8AF0-822AC0CE9E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACA34E4-10CC-44CD-8AF0-822AC0CE9E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACA34E4-10CC-44CD-8AF0-822AC0CE9E2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
