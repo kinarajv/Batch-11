@@ -435,6 +435,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalculator", "MyCalculato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalculator.Test", "MyCalculator.Test\MyCalculator.Test.csproj", "{06283BEB-87D0-4E26-AD9C-1D4DB3F9F8C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGame", "SimpleGame\SimpleGame.csproj", "{5F8773D3-114F-4085-9BC5-C38F5EF2FFB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGame.Test", "SimpleGame.Test\SimpleGame.Test.csproj", "{AC606EF0-AF18-4F86-B93D-24F386FF8F7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1221,6 +1225,14 @@ Global
 		{06283BEB-87D0-4E26-AD9C-1D4DB3F9F8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06283BEB-87D0-4E26-AD9C-1D4DB3F9F8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06283BEB-87D0-4E26-AD9C-1D4DB3F9F8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8773D3-114F-4085-9BC5-C38F5EF2FFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8773D3-114F-4085-9BC5-C38F5EF2FFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8773D3-114F-4085-9BC5-C38F5EF2FFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8773D3-114F-4085-9BC5-C38F5EF2FFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC606EF0-AF18-4F86-B93D-24F386FF8F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC606EF0-AF18-4F86-B93D-24F386FF8F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC606EF0-AF18-4F86-B93D-24F386FF8F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC606EF0-AF18-4F86-B93D-24F386FF8F7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
