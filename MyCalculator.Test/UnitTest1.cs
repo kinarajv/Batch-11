@@ -32,4 +32,16 @@ public class MyCalculatorTest
 		//Assert
 		Assert.That(result, Is.EqualTo(expected));
 	}
+	[Test] //Negative Case
+	public void Add_ThrowException_AddingZero() 
+	{
+		//Arrange
+		int a = 0;
+		int b = 0;
+		Exception exception;
+		//Act
+
+		//Assert
+		Assert.Throws<Exception>(() => _calculator.Add(a, b));
+	}
 }
