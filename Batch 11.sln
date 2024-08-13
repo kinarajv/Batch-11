@@ -443,6 +443,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day25", "Day25", "{5FBF0F3E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEntityFramework", "MyEntityFramework\MyEntityFramework.csproj", "{17E85974-B04F-4D38-87CF-70EB4F19105E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{32838494-D01D-4C5A-A617-B428A4F0FC08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1241,6 +1243,10 @@ Global
 		{17E85974-B04F-4D38-87CF-70EB4F19105E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17E85974-B04F-4D38-87CF-70EB4F19105E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17E85974-B04F-4D38-87CF-70EB4F19105E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32838494-D01D-4C5A-A617-B428A4F0FC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32838494-D01D-4C5A-A617-B428A4F0FC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32838494-D01D-4C5A-A617-B428A4F0FC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32838494-D01D-4C5A-A617-B428A4F0FC08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
