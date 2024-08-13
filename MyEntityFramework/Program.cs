@@ -1,4 +1,5 @@
 ﻿using System.Text.RegularExpressions;
+using Microsoft.EntityFrameworkCore;
 using MyEntityFramework;
 
 class Program
@@ -30,22 +31,27 @@ class Program
 			// UpdateCategory(northwind);
 
 			//Search/Filter
-			List<Category> categories = northwind.Categories.Where(a => a.CategoryName.Contains("o")).ToList();
-			foreach (var i in categories) 
+			List<Category> categories = northwind.Categories.Where(a => a.CategoryName.Contains("o")).Include(a => a.Products).ToList();
+			foreach (var cat in categories) 
 			{
-				Console.WriteLine(i.CategoryName);
+				Console.WriteLine($"{cat.CategoryId} : {cat.CategoryName} = {cat.Description}");
+				Console.WriteLine("\tTotal Product = " + cat.Products.Count());
+				foreach(var pr in cat.Products) 
+				{
+					Console.WriteLine($"{pr.ProductId} : {pr.ProductName}");
+				}
 			}
 
 			//Search/Filter to Get Id
-			Category category = northwind.Categories.Where(c => Regex.IsMatch(c.CategoryName, "^Con.*s$")).FirstOrDefault();
-			if (category is null)
-			{
-				Console.WriteLine("No Category Found");
-			}
-			else 
-			{
-				Console.WriteLine(category.CategoryName);
-			}
+			// Category category = northwind.Categories.Where(c => Regex.IsMatch(c.CategoryName, "^Con.*s$")).FirstOrDefault();
+			// if (category is null)
+			// {
+			// 	Console.WriteLine("No Category Found");
+			// }
+			// else 
+			// {
+			// 	Console.WriteLine(category.CategoryName);
+			// }
 		}
 	}
 
