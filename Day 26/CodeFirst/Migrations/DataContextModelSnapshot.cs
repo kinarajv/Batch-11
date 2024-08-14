@@ -49,7 +49,7 @@ namespace CodeFirst.Migrations
 
             modelBuilder.Entity("CodeFirst.Product", b =>
                 {
-                    b.Property<int>("ProductId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -57,20 +57,25 @@ namespace CodeFirst.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("CreateTime")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("datetime");
 
-                    b.Property<string>("Description")
+                    b.Property<string>("Notes")
                         .IsRequired()
                         .HasColumnType("TEXT");
+
+                    b.Property<string>("Penjelasan")
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasColumnName("Description");
 
                     b.Property<string>("ProductName")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar");
 
                     b.Property<int>("UnitPrice")
                         .HasColumnType("money");
 
-                    b.HasKey("ProductId");
+                    b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
 
