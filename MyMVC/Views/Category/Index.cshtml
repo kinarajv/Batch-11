@@ -1,0 +1,9 @@
+@model List<Category>;
+
+<h>Category</h>
+@foreach(var i in Model) 
+{
+    <p>@i.CategoryId</p>
+    <p>@i.CategoryName</p>
+    <p>@i.Description</p>
+}
