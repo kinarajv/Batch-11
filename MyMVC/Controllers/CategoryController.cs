@@ -16,4 +16,44 @@ public class CategoryController : Controller
 		List<Category> categories = _db.Categories.ToList();
 		return View(categories);
 	}
+	public IActionResult Create() 
+	{
+		return View();
+	}
+	[HttpPost]
+	public IActionResult Create(Category category) 
+	{
+		_db.Categories.Add(category);
+		_db.SaveChanges();
+		return RedirectToAction("Index");
+	}
+	public IActionResult Update(int? id) 
+	{
+		if(id is null) 
+		{
+			return NotFound();
+		}
+		Category category = _db.Categories.Find(id);
+		if(category is null) 
+		{
+			return NotFound();
+		}
+		return View(category);
+	}
+	[HttpPost]
+	public IActionResult Update(Category category) 
+	{
+		_db.Categories.Update(category);
+		_db.SaveChanges();
+		return RedirectToAction("Index");
+	}
+	public IActionResult Delete() 
+	{
+		return View();
+	}
+	[HttpPost]
+	public IActionResult Delete(Category category) 
+	{
+		return View();
+	}
 }

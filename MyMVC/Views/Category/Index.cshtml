@@ -1,6 +1,8 @@
 @model List<Category>;
 
 <h>Category</h>
+<br>
+<a class="btn btn-info" asp-controller="Category" asp-action="Create">Create</a>
 <table class="table">
   <thead>
     <tr>
@@ -23,7 +25,8 @@
                 @category.Description
             </td>
             <td>
-                Update Delete
+               <a class="btn btn-warning" asp-controller="Category" asp-action="Update" asp-route-id="@category.CategoryId">Update</a>
+               <a class="btn btn-danger" asp-controller="Category" asp-action="Delete">Delete</a>
             </td>
         </tr>
     }
