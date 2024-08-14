@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using MyMVC.Databases;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<DataContext>(options =>
+{
+	options.UseSqlite("FileName=./MyDatabase.db");
+});
 // Add dependency injection or another services
 // ...
 // ...
