@@ -1,5 +1,12 @@
 @model List<Category>;
-
+@if (TempData["Success"] is not null) 
+{
+  <p>@TempData["Success"]</p>
+}
+@if (TempData["Error"] is not null) 
+{
+  <p>@TempData["Error"]</p>
+}
 <h>Category</h>
 <br>
 <a class="btn btn-info" asp-controller="Category" asp-action="Create">Create</a>
@@ -26,7 +33,7 @@
             </td>
             <td>
                <a class="btn btn-warning" asp-controller="Category" asp-action="Update" asp-route-id="@category.CategoryId">Update</a>
-               <a class="btn btn-danger" asp-controller="Category" asp-action="Delete">Delete</a>
+               <a class="btn btn-danger" asp-controller="Category" asp-action="Delete" asp-route-id="@category.CategoryId">Delete</a>
             </td>
         </tr>
     }

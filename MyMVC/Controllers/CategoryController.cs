@@ -23,8 +23,15 @@ public class CategoryController : Controller
 	[HttpPost]
 	public IActionResult Create(Category category) 
 	{
+		bool status = _db.Categories.Any(cat => cat.CategoryName == category.CategoryName);
+		if(status) 
+		{
+			TempData["Error"] = "Category already exist";
+			return RedirectToAction("Index");
+		}
 		_db.Categories.Add(category);
 		_db.SaveChanges();
+		TempData["Success"] = "Create Category success";
 		return RedirectToAction("Index");
 	}
 	public IActionResult Update(int? id) 
@@ -47,13 +54,24 @@ public class CategoryController : Controller
 		_db.SaveChanges();
 		return RedirectToAction("Index");
 	}
-	public IActionResult Delete() 
+	public IActionResult Delete(int? id) 
 	{
-		return View();
+		if(id is null) 
+		{
+			return NotFound();
+		}
+		Category category = _db.Categories.Find(id);
+		if(category is null) 
+		{
+			return NotFound();
+		}
+		return View(category);
 	}
 	[HttpPost]
 	public IActionResult Delete(Category category) 
 	{
-		return View();
+		_db.Categories.Remove(category);
+		_db.SaveChanges();
+		return RedirectToAction("Index");
 	}
 }
