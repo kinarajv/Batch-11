@@ -1,4 +1,6 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using MyWebAPI.DTOs;
 using MyWebAPI.Models;
 using MyWebAPI.Repository;
 
@@ -6,17 +8,20 @@ namespace MyWebAPI.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class CategoryController : ControllerBase, IController<Category>
+public class CategoryController : ControllerBase, IController<CategoryDTO>
 {
+	private IMapper _map;
 	private DataContext _db;
-	public CategoryController(DataContext db) 
+	public CategoryController(DataContext db, IMapper map) 
 	{
 		_db = db;
+		_map = map;
 	}
 	[HttpPost]
-	public IActionResult Create(Category data)
+	public IActionResult Create(CategoryDTO data)
 	{
-		_db.Categories.Add(data);
+		Category category = _map.Map<Category>(data);
+		_db.Categories.Add(category);
 		_db.SaveChanges();
 		return Ok();
 	}
@@ -36,6 +41,14 @@ public class CategoryController : ControllerBase, IController<Category>
 	public IActionResult Get()
 	{
 		List<Category> categories = _db.Categories.ToList();
+		List<CategoryDTO> categoriesDto = _map.Map<List<CategoryDTO>>(categories);
+		return Ok(categoriesDto);
+	}
+	[HttpGet]
+	[Route("detail")]
+	public IActionResult GetDetail()
+	{
+		List<Category> categories = _db.Categories.ToList();
 		return Ok(categories);
 	}
 	[HttpGet]
@@ -50,7 +63,7 @@ public class CategoryController : ControllerBase, IController<Category>
 	}
 	[HttpPut]
 	[Route("{id}")]
-	public IActionResult Update(int id, Category data)
+	public IActionResult Update(int id, CategoryDTO data)
 	{
 		Category? category = _db.Categories.Find(id);
 		if(category is null ) {

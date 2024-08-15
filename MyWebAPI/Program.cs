@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using MyWebAPI.MapProfile;
 using MyWebAPI.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 {
 	options.UseSqlite("FileName=./MyDatabase.db");
 });
+builder.Services.AddAutoMapper(typeof(MapProfile));
 //Add all controllers
 builder.Services.AddControllers();
 var app = builder.Build();
