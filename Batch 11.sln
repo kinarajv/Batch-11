@@ -451,6 +451,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E_Week 5", "E_Week 5", "{51
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMVC", "MyMVC\MyMVC.csproj", "{439C3EB1-BB7A-45C6-8FCB-7E037DBB6875}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebAPI", "MyWebAPI\MyWebAPI.csproj", "{762B6A3A-63BD-4CDA-B930-B5964671DBAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1257,6 +1259,10 @@ Global
 		{439C3EB1-BB7A-45C6-8FCB-7E037DBB6875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{439C3EB1-BB7A-45C6-8FCB-7E037DBB6875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{439C3EB1-BB7A-45C6-8FCB-7E037DBB6875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762B6A3A-63BD-4CDA-B930-B5964671DBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762B6A3A-63BD-4CDA-B930-B5964671DBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762B6A3A-63BD-4CDA-B930-B5964671DBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762B6A3A-63BD-4CDA-B930-B5964671DBAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
