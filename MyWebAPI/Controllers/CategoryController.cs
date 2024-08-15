@@ -1,43 +1,66 @@
 using Microsoft.AspNetCore.Mvc;
+using MyWebAPI.Models;
+using MyWebAPI.Repository;
 
 namespace MyWebAPI.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class CategoryController : ControllerBase
+public class CategoryController : ControllerBase, IController<Category>
 {
-	private static readonly List<string> myCategories = new() { "Eleectronics", "Fruit" };
-	
-	[HttpGet]
-	public IActionResult GetAll() 
+	private DataContext _db;
+	public CategoryController(DataContext db) 
 	{
-		return Ok(myCategories);
-	}
-	[Route("{id}")]
-	[HttpGet]
-	public IActionResult GetAll(int id) 
-	{
-		if(id > myCategories.Count) 
-		{
-			return NotFound("Takdelah");
-		}
-		return Ok(myCategories[id]);
+		_db = db;
 	}
 	[HttpPost]
-	public IActionResult Add(string data) 
+	public IActionResult Create(Category data)
 	{
-		myCategories.Add(data);
-		return Ok(myCategories);
+		_db.Categories.Add(data);
+		_db.SaveChanges();
+		return Ok();
 	}
-	[Route("{id}")]
 	[HttpDelete]
-	public IActionResult Delete(int id) 
+	[Route("{id}")]
+	public IActionResult Delete(int id)
 	{
-		if(id > myCategories.Count) 
-		{
-			return NotFound("Takdelah");
+		Category? category = _db.Categories.Find(id);
+		if(category is null ) {
+			return NotFound();
 		}
-		myCategories.RemoveAt(id);
-		return Ok(myCategories);
+		_db.Categories.Remove(category);
+		_db.SaveChanges();
+		return Ok();
 	}
+	[HttpGet]
+	public IActionResult Get()
+	{
+		List<Category> categories = _db.Categories.ToList();
+		return Ok(categories);
+	}
+	[HttpGet]
+	[Route("{id}")]
+	public IActionResult Get(int id)
+	{
+		Category? category = _db.Categories.Find(id);
+		if(category is null ) {
+			return NotFound();
+		}
+		return Ok(category);
+	}
+	[HttpPut]
+	[Route("{id}")]
+	public IActionResult Update(int id, Category data)
+	{
+		Category? category = _db.Categories.Find(id);
+		if(category is null ) {
+			return NotFound();
+		}
+		category.CategoryName = data.CategoryName;
+		category.Description = data.Description;
+		_db.Categories.Update(category);
+		_db.SaveChanges();
+		return Ok();
+	}
+
 }
